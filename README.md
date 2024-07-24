@@ -35,9 +35,9 @@ This project demonstrates an image processing pipeline implemented in Go, with t
 1. **Clone the Repository:**
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
-
+git clone https://github.com/bilguunbilegt/image_processing.git
+cd image_processing
+```
 
 - Ensure you have a directory named images in the root of the project, and place some JPEG images in it.
 - Build the Program:

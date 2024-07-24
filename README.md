@@ -38,6 +38,21 @@ This project demonstrates an image processing pipeline implemented in Go, with t
 git clone https://github.com/bilguunbilegt/image_processing.git
 cd image_processing
 ```
-
+2. **Create Image Directory:**
 - Ensure you have a directory named images in the root of the project, and place some JPEG images in it.
-- Build the Program:
+  
+3. **Build the Program:**
+  
+```bash
+  go build -o pipeline main.go
+```
+4. **Running the Pipeline:**
+
+```bash
+  ./pipeline
+```
+5. **Testing:**
+```bash
+  go test -v
+```
+
